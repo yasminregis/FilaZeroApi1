@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilaZeroApi", "FilaZeroApi\FilaZeroApi.csproj", "{7826F6DE-F041-4408-BBE8-F6D85323DC27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7826F6DE-F041-4408-BBE8-F6D85323DC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7826F6DE-F041-4408-BBE8-F6D85323DC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7826F6DE-F041-4408-BBE8-F6D85323DC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7826F6DE-F041-4408-BBE8-F6D85323DC27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3A7AC7-083A-49F3-B771-A24827ABF1F2}
+	EndGlobalSection
+EndGlobal
