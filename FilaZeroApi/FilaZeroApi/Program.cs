@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<FilaZeroDBContext>();
 // Add services to the container.
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -18,7 +18,53 @@ app.MapGet("v1/listarAgencias", (FilaZeroDBContext dbcontext) =>
     return Results.Ok(agen);
 }).Produces<Agencia>();
 
+app.MapGet("v1/Agencia/{agenciaId}", (FilaZeroDBContext dbcontext, Guid agenciaId) =>
+{
+    var agen = dbcontext.Agencias.FirstOrDefault(x  => x.Id == agenciaId);
+    if(agen == null)
+           return Results.NotFound();
+    return Results.Ok(agen);
 
+}).Produces<Agencia>();
+
+
+
+//app.MapPut("v1/AtualizaAgencias/{agenciaId}/{cnpj}/{codigoAgencia}/{endereco}/{nomeBanco}/{nomeCompleto}/{senha}", 
+//    (FilaZeroDBContext dbcontext, Guid agenciaId, string cnpj, string codigoAgencia, string endereco, string nomeBanco, string nomeCompleto, string senha) =>{
+
+//    var agencia = dbcontext.Agencias.FirstOrDefault(x => x.Id == agenciaId);
+//    if(agencia == null)
+//    {
+//        return Results.NotFound();
+//    }
+//    try
+//    {
+
+
+//        dbcontext.Agencias.
+//        dbcontext.SaveChanges();
+//    }
+//    catch (Exception)
+//    {
+
+//        throw;
+//    }
+//    return Results.Ok(agen);
+
+
+//}).Produces<Agencia>();
+
+//app.MapDelete("v1/DeletarAgencia/{agenciaId}", (FilaZeroDBContext dbcontext, Guid agenciaId) => {
+
+//    var agen = dbcontext.Agencias.FirstOrDefault(x => x.Id == agenciaId);
+//    if (agen == null)
+//    {
+//        return Results.NotFound();
+//    }
+//    return Results.Ok(agen);
+
+
+//}).Produces<Agencia>();
 
 app.MapPost("v1/criarAgencia", (
     FilaZeroDBContext dbcontext,
@@ -40,6 +86,70 @@ app.MapPost("v1/criarAgencia", (
 
 }).Produces<CreateAgenciaViewModel>();
 
+app.MapPost("v1/criarAgenciaCapacidade", (
+    FilaZeroDBContext dbcontext,
+    CreateAgenciaCapacidadeViewModel model) =>
+{
+    var agencia = model.MapTo();
+    if (model.IsValid)
+    {
+        dbcontext.agenciasCapacidade.Add(agencia);
+        dbcontext.SaveChanges();
+
+        return Results.Ok(agencia);
+    }
+    else
+    {
+        return Results.BadRequest(model.Notifications);
+
+    }
+
+}).Produces<CreateAgenciaViewModel>();
+
+
+app.MapGet("v1/AgenciaCapacidade/{agenciaCapacidadeId}", (FilaZeroDBContext dbcontext, Guid agenciaCapacidadeId) =>
+{
+    var agen = dbcontext.agenciasCapacidade.FirstOrDefault(x => x.id == agenciaCapacidadeId);
+    if (agen == null)
+        return Results.NotFound();
+    return Results.Ok(agen);
+
+}).Produces<AgenciaCapacidade>();
+
+app.MapPut("v1/atualizarAgenciaCapacidade", (
+    FilaZeroDBContext dbcontext,
+    CreateAgenciaCapacidadeViewModel model) =>
+{
+    var agencia = model.MapTo();
+    var agenciaCapacidadeAtual = dbcontext.agenciasCapacidade.FirstOrDefault(x => x.id == agencia.id);
+    var todos = dbcontext.agenciasCapacidade.ToList();
+    if (agenciaCapacidadeAtual == null)
+    {
+        return Results.NotFound();
+    }
+    try
+    {
+        agenciaCapacidadeAtual.id = agencia.id;
+        agenciaCapacidadeAtual.agenciaId = agencia.agenciaId;
+        agenciaCapacidadeAtual.HorarioFechamento = agencia.HorarioFechamento;
+        agenciaCapacidadeAtual.HorarioAbertura = agencia.HorarioAbertura;
+        agenciaCapacidadeAtual.lotacao = agencia.lotacao;
+        agenciaCapacidadeAtual.quantidadeFichas = agencia.quantidadeFichas;
+
+        dbcontext.agenciasCapacidade.Update(agenciaCapacidadeAtual);
+        dbcontext.SaveChanges();
+    }
+    catch (Exception)
+    {
+
+        throw;
+    }
+    return Results.Ok(agenciaCapacidadeAtual);
+    
+
+}).Produces<CreateAgenciaCapacidadeViewModel>();
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -51,8 +161,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
-app.MapControllers();
+//app.MapControllers();
 
 app.Run();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj": {}
+    "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj": {
+    "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj",
+        "projectUniqueName": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj",
         "projectName": "FilaZeroApi",
-        "projectPath": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj",
+        "projectPath": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj",
         "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\obj\\",
+        "outputPath": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",

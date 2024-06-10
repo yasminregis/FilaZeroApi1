@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fmJhUqhm7hc=",
+  "dgSpecHash": "lon4mlirBHM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj",
+  "projectFilePath": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\FilaZeroApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julio\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\julio\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

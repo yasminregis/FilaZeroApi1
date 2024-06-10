@@ -1,29 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\",
+  "WorkspaceRootPath": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\source\\repos\\filazeroapi\\filazeroapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\documents\\github\\filazeroapi1\\filazeroapi\\filazeroapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\source\\repos\\filazeroapi\\filazeroapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\documents\\github\\filazeroapi1\\filazeroapi\\filazeroapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\source\\repos\\filazeroapi\\filazeroapi\\viewmodels\\createagenciaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\documents\\github\\filazeroapi1\\filazeroapi\\filazeroapi\\viewmodels\\createagenciacapacidadeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\viewmodels\\createagenciacapacidadeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\documents\\github\\filazeroapi1\\filazeroapi\\filazeroapi\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\documents\\github\\filazeroapi1\\filazeroapi\\filazeroapi\\viewmodels\\createagenciaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\viewmodels\\createagenciaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\source\\repos\\filazeroapi\\filazeroapi\\data\\filazerodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\documents\\github\\filazeroapi1\\filazeroapi\\filazeroapi\\data\\filazerodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\data\\filazerodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|c:\\users\\julio\\source\\repos\\filazeroapi\\filazeroapi\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7826F6DE-F041-4408-BBE8-F6D85323DC27}|FilaZeroApi\\FilaZeroApi.csproj|solutionrelative:filazeroapi\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,39 +42,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAALQSAAAAAAAAAAArwMUSAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-09T19:57:31.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "FilaZeroApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "FilaZeroApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABTAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:51:19.344Z",
+              "WhenOpened": "2024-06-10T00:23:01.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CreateAgenciaCapacidadeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\ViewModels\\CreateAgenciaCapacidadeViewModel.cs",
+              "RelativeDocumentMoniker": "FilaZeroApi\\ViewModels\\CreateAgenciaCapacidadeViewModel.cs",
+              "ToolTip": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\ViewModels\\CreateAgenciaCapacidadeViewModel.cs",
+              "RelativeToolTip": "FilaZeroApi\\ViewModels\\CreateAgenciaCapacidadeViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAWwBgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:01:32.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Agencia.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\models\\Agencia.cs",
+              "RelativeDocumentMoniker": "FilaZeroApi\\models\\Agencia.cs",
+              "ToolTip": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\models\\Agencia.cs",
+              "RelativeToolTip": "FilaZeroApi\\models\\Agencia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T13:41:50.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateAgenciaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\ViewModels\\CreateAgenciaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\ViewModels\\CreateAgenciaViewModel.cs",
               "RelativeDocumentMoniker": "FilaZeroApi\\ViewModels\\CreateAgenciaViewModel.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\ViewModels\\CreateAgenciaViewModel.cs",
+              "ToolTip": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\ViewModels\\CreateAgenciaViewModel.cs",
               "RelativeToolTip": "FilaZeroApi\\ViewModels\\CreateAgenciaViewModel.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAArwBMAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T15:42:29.693Z",
               "EditorCaption": ""
@@ -82,39 +96,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\Program.cs",
               "RelativeDocumentMoniker": "FilaZeroApi\\Program.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\Program.cs",
+              "ToolTip": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\Program.cs",
               "RelativeToolTip": "FilaZeroApi\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAKUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T14:08:44.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FilaZeroDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\Data\\FilaZeroDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\Data\\FilaZeroDBContext.cs",
               "RelativeDocumentMoniker": "FilaZeroApi\\Data\\FilaZeroDBContext.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\Data\\FilaZeroDBContext.cs",
+              "ToolTip": "C:\\Users\\julio\\Documents\\GitHub\\FilaZeroApi1\\FilaZeroApi\\FilaZeroApi\\Data\\FilaZeroDBContext.cs",
               "RelativeToolTip": "FilaZeroApi\\Data\\FilaZeroDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T13:47:44.928Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Agencia.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\models\\Agencia.cs",
-              "RelativeDocumentMoniker": "FilaZeroApi\\models\\Agencia.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\FilaZeroApi\\FilaZeroApi\\models\\Agencia.cs",
-              "RelativeToolTip": "FilaZeroApi\\models\\Agencia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T13:41:50.483Z"
             }
           ]
         }

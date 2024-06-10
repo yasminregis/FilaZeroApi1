@@ -3,6 +3,7 @@ using System;
 using FilaZeroApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilaZeroApi.Migrations
 {
     [DbContext(typeof(FilaZeroDBContext))]
-    partial class FilaZeroDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240609204237_mod1")]
+    partial class mod1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
@@ -50,34 +53,6 @@ namespace FilaZeroApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Agencias");
-                });
-
-            modelBuilder.Entity("FilaZeroApi.models.AgenciaCapacidade", b =>
-                {
-                    b.Property<Guid>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("HorarioAbertura")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("HorarioFechamento")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<Guid>("agenciaId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("lotacao")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("quantidadeFichas")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("id");
-
-                    b.ToTable("agenciasCapacidade");
                 });
 #pragma warning restore 612, 618
         }

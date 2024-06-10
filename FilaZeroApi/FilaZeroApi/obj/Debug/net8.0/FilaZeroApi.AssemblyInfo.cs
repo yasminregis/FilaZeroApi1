@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilaZeroApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c0974e4ec219356ed65c5badd440680d11f5fa2")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilaZeroApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilaZeroApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
