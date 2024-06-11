@@ -22,7 +22,7 @@ namespace FilaZeroApi.ViewModels
                                .IsNotNull(nomeBanco, "Informe um nome")
                                .IsGreaterThan(nomeBanco, 3, "O titulo deve conter mais de 3");
             AddNotifications(contract);
-            //public record Agencia(Guid Id, string cnpj, string codigoAgencia, string endereco, string nomeBanco, string nomeCompleto, string senha);
+           
 
 
             return new Agencia(Guid.NewGuid(), cnpj, codigoAgencia, endereco, nomeBanco, nomeCompleto, senha);

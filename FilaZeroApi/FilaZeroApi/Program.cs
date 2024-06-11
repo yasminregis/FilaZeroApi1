@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<FilaZeroDBContext>();
 // Add services to the container.
 
-//builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -26,45 +25,6 @@ app.MapGet("v1/Agencia/{agenciaId}", (FilaZeroDBContext dbcontext, Guid agenciaI
     return Results.Ok(agen);
 
 }).Produces<Agencia>();
-
-
-
-//app.MapPut("v1/AtualizaAgencias/{agenciaId}/{cnpj}/{codigoAgencia}/{endereco}/{nomeBanco}/{nomeCompleto}/{senha}", 
-//    (FilaZeroDBContext dbcontext, Guid agenciaId, string cnpj, string codigoAgencia, string endereco, string nomeBanco, string nomeCompleto, string senha) =>{
-
-//    var agencia = dbcontext.Agencias.FirstOrDefault(x => x.Id == agenciaId);
-//    if(agencia == null)
-//    {
-//        return Results.NotFound();
-//    }
-//    try
-//    {
-
-
-//        dbcontext.Agencias.
-//        dbcontext.SaveChanges();
-//    }
-//    catch (Exception)
-//    {
-
-//        throw;
-//    }
-//    return Results.Ok(agen);
-
-
-//}).Produces<Agencia>();
-
-//app.MapDelete("v1/DeletarAgencia/{agenciaId}", (FilaZeroDBContext dbcontext, Guid agenciaId) => {
-
-//    var agen = dbcontext.Agencias.FirstOrDefault(x => x.Id == agenciaId);
-//    if (agen == null)
-//    {
-//        return Results.NotFound();
-//    }
-//    return Results.Ok(agen);
-
-
-//}).Produces<Agencia>();
 
 app.MapPost("v1/criarAgencia", (
     FilaZeroDBContext dbcontext,
@@ -116,6 +76,15 @@ app.MapGet("v1/AgenciaCapacidade/{agenciaCapacidadeId}", (FilaZeroDBContext dbco
 
 }).Produces<AgenciaCapacidade>();
 
+app.MapGet("v1/AgenciaCapacidades", (FilaZeroDBContext dbcontext) =>
+{
+    var agencia = dbcontext.agenciasCapacidade.ToList();
+    if (agencia == null)
+        return Results.NotFound();
+    return Results.Ok(agencia);
+
+}).Produces<AgenciaCapacidade>();
+
 app.MapPut("v1/atualizarAgenciaCapacidade", (
     FilaZeroDBContext dbcontext,
     CreateAgenciaCapacidadeViewModel model) =>
@@ -149,8 +118,6 @@ app.MapPut("v1/atualizarAgenciaCapacidade", (
 
 }).Produces<CreateAgenciaCapacidadeViewModel>();
 
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -160,9 +127,5 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
-
-//app.UseAuthorization();
-
-//app.MapControllers();
 
 app.Run();

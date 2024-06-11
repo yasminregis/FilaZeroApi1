@@ -8,7 +8,7 @@ namespace FilaZeroApi.Data
         public DbSet<AgenciaCapacidade> agenciasCapacidade { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
-            => optionsBuilder.UseSqlite("Data Source=mydatabase.db");//cache compartilhado;?
+            => optionsBuilder.UseSqlite("Data Source=mydatabase.db");
         
     }
 }
